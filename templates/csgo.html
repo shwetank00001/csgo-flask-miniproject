@@ -1,0 +1,57 @@
+
+{% extends "layout.html" %}
+{% block body %}
+    <main>
+    <header class="masthead" style="background-image: url('{{ url_for('static',filename='img/banner.jpeg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <span class="subheading">Gameplay</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+        <section style="background-color: rgb(41, 39, 39);border-radius: 8px;">
+            <h2 style="color:rgb(219, 191, 32);font-family: Arial, Helvetica, sans-serif;padding: 10px;"></h2>
+            <video src="Videos/a.mp4" width="33%" poster="img/d.jpg"controls></video>
+            <video src="Videos/b.mp4" width="33%" controls></video>
+            <br>
+            <br>
+            <video src="Videos/c.mp4" width="33%" controls></video>
+            <video src="Videos/d.mp4" width="33%" controls></video>
+        </section>
+        <br>
+        <section height="90%" style="background-color: teal;padding: 10px;border-radius: 8px; height: auto;">
+            <h2>Skills.</h2>
+            <iframe width="65%" height="90%" src="https://www.youtube.com/embed/75Kn8PNzBuA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ; frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div>
+            <marquee><h1>★ TEAM X </h1></marquee>
+        </div>
+        <div style="background-color: rgb(97, 192, 216); border-radius: 8px;padding: 10px;">
+            <h2>★Team X Members</h2>
+            <ol>Shwetank(Me)</ol>
+            <ol>Input</ol>
+            <ol>Aldrin</ol>
+            <ol>Titan</ol>
+            <ol>Guru</ol>
+            <ol>Drunk</ol>        
+        </div>
+        <section style="background-color:#c65387  ;">
+            <h2>Profile Links</h2>
+            <h3>ShwetankXGod^ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://steamcommunity.com/id/Shwetank99/" target="_blank" rel="noopener noreferrer">Steam profile</a> </h3>
+            <h3>1nputAF &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://steamcommunity.com/id/anasfareed21/" target="_blank" rel="noopener noreferrer">Steam profile</a> </h3>
+            <h3>-ALdriN-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://steamcommunity.com/id/aldrin149/" target="_blank" rel="noopener noreferrer">Steam profile</a> </h3>
+            <h3>⋆Titanツ.猎头者 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://steamcommunity.com/id/NotTitan/" target="_blank" rel="noopener noreferrer">Steam profile</a> </h3>
+            <h3>9henomenal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://steamcommunity.com/id/9henomenal/" target="_blank" rel="noopener noreferrer">Steam profile</a> </h3>
+        </section>
+
+{% endblock %}

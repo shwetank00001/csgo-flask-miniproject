@@ -1,0 +1,17 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/dbshwetank",
+        "prod_uri": "mysql://root:@localhost/dbshwetank",
+        "fb_url": "https://fb.com/",
+        "st_url": "https://steamcommunity.com/id/Shwetank99/",
+        "gh_url": "https://github.com/",
+        "blog_name":"xGod's Site",
+        "gmail-user":"shwetank.mishra01_2017@galgotiasuniversity.edu.in",
+        "gmail-password":"Abc%0007"
+
+    }
+
+
+}
